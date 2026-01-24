@@ -10,3 +10,21 @@
   color: black;
   font-family: "Inter", sans-serif;
 }
+
+header {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    display: flex;
+    gap: 4.36px;
+
+    span {
+      font-size: 19.85px;
+      font-weight: 600;
+      color: #c92071;
+    }
+  }
+}
